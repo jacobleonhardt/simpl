@@ -10,7 +10,7 @@ class User < ApplicationRecord
   }, uniqueness: true
 
   has_secure_password
-  validates :password, presence: true, length {
+  validates :password_digest, presence: true, length: {
     maximum: 255,
     minimum: 6,
   }
