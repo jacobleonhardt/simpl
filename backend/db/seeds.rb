@@ -1,5 +1,5 @@
 User.create(
-  id: 2,
+  id: 1,
   name: 'Playswith Squirrels',
   email: 'test@gmail.com',
   password: 'testing123',
