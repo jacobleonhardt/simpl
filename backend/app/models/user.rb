@@ -15,5 +15,4 @@ class User < ApplicationRecord
     minimum: 6,
   }
 
-  attr_accessor :name, :email
 end
