@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Api::Beta::UsersController < ApplicationController
 
   # before_action :require_user_logged_in!, only: [:show, :edit, :update, :destroy]
 
